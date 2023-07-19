@@ -13,6 +13,8 @@ import {
   Input,
 } from '@chakra-ui/react';
 import { BiMenuAltLeft } from 'react-icons/bi';
+import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined';
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -20,7 +22,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav>
+      <nav className="container">
         <ul className="nav_ul">
           <li className="nav_links">
             <Button ref={btnRef} bg={'ButtonFace'} onClick={onOpen}>
@@ -51,8 +53,13 @@ const Navbar = () => {
             </Drawer>
           </li>
           <li>BLOG</li>
-          <li>PROFILE</li>
-          <li>WRITE</li>
+          <li>
+            <NotificationsNoneOutlinedIcon />
+          </li>
+          <li className="write_btn">
+            {' '}
+            <CreateOutlinedIcon /> WRITE
+          </li>
         </ul>
       </nav>
     </>

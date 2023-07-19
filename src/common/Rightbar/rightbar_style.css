@@ -1,5 +1,5 @@
 .rightbar_inner {
-  padding: 1.5rem;
+  padding: 1.2rem;
   position: fixed;
 }
 .rightbar_box {
@@ -11,17 +11,17 @@
 /* Left */
 .rightbar_box_left {
   width: 65%;
+  line-height: 1.2;
 }
 .rightbar_box_left p {
-  margin-top: 0.3rem;
+  margin-top: 0.4rem;
   font-size: smaller;
   color: gray;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.4rem;
 }
 /* Right */
 .rightbar_box_right {
   width: 35%;
-
   display: flex;
   justify-content: center;
   margin: auto;
@@ -32,7 +32,7 @@
   text-align: left;
 }
 .people_inner {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -41,8 +41,8 @@
 /* Profile Image */
 .profile_img {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -58,13 +58,13 @@
 
 /* Reading List */
 .reading_inner {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 1rem;
 }
 .reading_inner_img {
-  width: 40%;
+  width: 50%;
   justify-content: center;
 }
 .reading_inner_img img {
@@ -74,9 +74,10 @@
   width: 60%;
 }
 .reading_desc h4 {
-  line-height: 1.3;
+  line-height: 1.2;
 }
 .reading_desc p {
+  /* line-height: 1.2; */
   font-size: x-small;
 }
 .posted_by {
@@ -85,8 +86,8 @@
 /* Profile Image */
 .posted_by_user {
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   overflow: hidden;
   border-radius: 50%;
 }

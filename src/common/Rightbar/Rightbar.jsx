@@ -75,14 +75,34 @@ const index = () => {
                 Along with shutter spect aperture and ISO, white balance is one
                 of the most
               </p>
-              <div className="posted_by">
+              {/* <div className="posted_by">
                 <div className="posted_by_user">
                   <img src={me} alt="user" />
                 </div>
                 <div className="posted_by_name">
                   Rohan <span> • April 16, 2023</span>{' '}
                 </div>
-              </div>
+              </div> */}
+            </div>
+          </div>
+          <div className="reading_inner">
+            <div className="reading_inner_img">
+              <img src={profile} alt="reading_img" />
+            </div>
+            <div className="reading_desc">
+              <h4>A Beginner's Guide to White Balance in Photography</h4>
+              <p>
+                Along with shutter spect aperture and ISO, white balance is one
+                of the most
+              </p>
+              {/* <div className="posted_by">
+                <div className="posted_by_user">
+                  <img src={me} alt="user" />
+                </div>
+                <div className="posted_by_name">
+                  Rohan <span> • April 16, 2023</span>{' '}
+                </div>
+              </div> */}
             </div>
           </div>
         </div>
